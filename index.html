@@ -3,13 +3,13 @@
   <head>
     <title>Flip-8</title>
   </head>
-  <body style="background: #5f574f;">
+  <body style="background: #5f574f;" onkeydown="if (event.key == 'Escape') { window.close() }">
     <span class="flip-download">Download the binaries at the <a href="https://github.com/FiveManiaGit/flip-8/releases" style="color: white !important;">releases</a> page.
     <iframe src="flip8.html" class="flip-embed"></iframe>
   </body>
   <style>
    .flip-embed {
-     left: 50%;
+     left: 55%;
      top: 50%;
      transform: translate(-50%, -50%);
      position: fixed;
